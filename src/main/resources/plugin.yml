@@ -1,0 +1,66 @@
+name: SkyPvP
+version: '${project.version}'
+main: de.lordlazor.skypvp.SkyPvP
+api-version: '1.20'
+
+commands:
+  gm:
+    description: 'Setzt den Gamemode um'
+    usage: '/gm'
+
+  mutechat:
+    description: 'Mute den Chat'
+    usage: '/mutechat <on/off>'
+
+  clearchat:
+    description: 'Löscht den Chat'
+    usage: '/clearchat'
+    aliases:
+      - cc
+  stats:
+    description: 'Zeigt deine Stats an'
+    usage: '/stats'
+
+  toggletracker:
+    description: 'Aktiviert/Deaktiviert den Tracker'
+    usage: '/toggletracker'
+
+  setrank:
+    description: 'Setzt den Rang'
+    usage: '/setrank <Spieler> <Rang>'
+
+  info:
+    description: 'Zeigt Informationen über den Server an'
+    usage: '/info'
+
+  getyawpitch:
+    description: 'Zeigt die Yaw und Pitch an'
+    usage: '/getyawpitch'
+
+  kits:
+    description: 'Zeigt alle Kits an'
+    usage: '/kits'
+    aliases:
+      - kit
+
+  shop:
+    description: 'Öffnet den Shop'
+    usage: '/shop'
+    aliases:
+      - skyshop
+
+  vanish:
+    description: 'Aktiviert/Deaktiviert den Vanish'
+    usage: '/vanish'
+    aliases:
+      - v
+
+  addcoins:
+    description: 'Fügt Coins hinzu'
+    usage: '/addcoins <Spieler> <Anzahl>'
+
+  clearinventory:
+    description: 'Löscht das Inventar'
+    usage: '/clearinventory <Spieler>'
+    aliases:
+      - ci
